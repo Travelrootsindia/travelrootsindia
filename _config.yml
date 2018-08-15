@@ -1,1 +1,45 @@
+# Site settings
+host : https://www.travelrootsindia.com
+name : TravelrootsIndia
+description: TravelrootsIndia .
+author : "TravelrootsIndiaOrg"
+url : "https://www.travelrootsindia.com"
+fqurl : "https://www.travelrootsindia.com"
+baseurl : "/"
+author_name : "TravelrootsIndia"
+author_bio : "" 
+twitter_username: TravelrootsIndia
+facebook_username: TravelrootsIndia
+# Build settings
+encoding: UTF-8
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
+permalink: /:title/
+paginate: 3
+showFeed : true
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+# SEO settings
+title: TravelrootsIndia
+twitter:
+  username: TravelrootsIndia
+facebook:
+  app_id: 222755514444735
+  publisher: https://www.facebook.com/TravelrootsIndia
+  admins: https://www.facebook.com/kbvishnu
+social:
+  name : TravelrootsIndia
+  links: ["http://www.twitter.com/TravelrootsIndiaOrg","https://www.facebook.com/TravelrootsIndia","https://plus.google.com/TravelrootsIndia","https://in.linkedin.com/in/TravelrootsIndia","https://www.youtube.com/channel/UC98FbpEB4PvgOYq1GKCtOgQ"]
+google_site_verification: g12yfu4dXlcHcAPxbSApkXdqkPZwuxOeqj8q7pANb4E
+
 theme: jekyll-theme-minimal
